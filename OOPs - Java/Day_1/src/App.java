@@ -10,8 +10,10 @@ public class App {
         Student s1 = new Student(101, "Neeraj Kumar", 21, 5, 165.52f);
         printStudentInfo(s1);
 
-
-        Student s2 = s1;
+        Student s2 = new Student(102, "Vikash Sharma", 20, 4, 165.3f);
         printStudentInfo(s2);
+
+        Student s3 = s2;
+        printStudentInfo(s3);
     }
 }
